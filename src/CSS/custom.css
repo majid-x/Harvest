@@ -1,0 +1,53 @@
+.menuBorderr:first-child {
+  border: 4px solid white;
+  border-radius: 0;
+}
+
+.EquipmentContainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* Add a semi-transparent black overlay */
+      url("../../public/images/wheat.jpg"); /* Image URL */
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken; /* Blend mode to darken the image */
+  height: 80vh;
+  color: white; /* Text color for visibility */
+
+  padding: 5% 12% 5%;
+}
+
+.borderr {
+  border: 1px solid red;
+}
+
+.iconDiv {
+  justify-content: space-between;
+}
+
+.iconDiv hr {
+  background-color: white;
+  border-color: white;
+  height: 4px;
+  opacity: 1;
+  width: 30%;
+}
+
+.borderhr {
+  border-radius: 20px;
+}
+
+.EquipmentDivTitle {
+  text-align: center;
+}
+.EquipmentDivTitle h5 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 1200px) {
+  .EquipmentContainer {
+    padding: 5% 7% 5%;
+  }
+}

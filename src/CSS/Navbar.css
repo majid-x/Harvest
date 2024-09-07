@@ -1,83 +1,82 @@
 /* Navbar.css */
 .navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to the ends */
+  padding: 10px 20px;
+  background: transparent; /* Invisible background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+  margin-top: 150px;
+  align-items: center; /* Center items vertically */
+  position: absolute; /* Position absolute for centering */
+  left: 50%; /* Move to the center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.nav-menu a {
+  color: white; /* Black text color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Button for mobile menu */
+.mobile-menu-button {
+  display: none; /* Hide the button by default */
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white; /* Black text color */
+  z-index: 1001; /* Ensure button is above the menu */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* Hide the menu by default on mobile */
+    flex-direction: column;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Align items to the ends */
-    padding: 10px 20px;
-    background: transparent; /* Invisible background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
-    z-index: 1000; /* Ensure it stays on top */
-  }
-  
-  .nav-menu {
-    display: flex;
-    gap: 30px;
-    padding-top: 20px;
-    margin-top: 150px;
-    align-items: center; /* Center items vertically */
-    position: absolute; /* Position absolute for centering */
-    left: 50%; /* Move to the center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-  }
-  
-  .nav-menu a {
-    color: white; /* Black text color */
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Button for mobile menu */
-  .mobile-menu-button {
-    display: none; /* Hide the button by default */
-    font-size: 24px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    color: white; /* Black text color */
-    z-index: 1001; /* Ensure button is above the menu */
-  }
-  
-  /* Media Query for Mobile Devices */
-  @media (max-width: 768px) {
-    .nav-menu {
-      display: none; /* Hide the menu by default on mobile */
-      flex-direction: column;
-      position: fixed;
-      top: 0;
-      left: 0;
-      gap: 10px;
-      padding-top: 0px;
+    gap: 10px;
+    padding-top: 0px;
     margin-top: 30px;
-      width: 250px; /* Width of the mobile menu */
-      height: 100%;
-      background: transparent;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-      transform: translateX(-100%); /* Start off-screen */
-      transition: transform 0.3s ease;
-      padding: 20px;
-      z-index: 999;
-    }
-  
-    .nav-menu.open {
-      display: flex; /* Show the menu when open */
-      transform: translateX(0); /* Slide in when open */
-    }
-  
-    .nav-menu a {
-      padding: 10px 0;
-      color: white; /* Black text color */
-    }
-  
-    .mobile-menu-button {
-      display: block; /* Show the button on mobile */
-      position: absolute;
-      color: white;
-      left: 20px; /* Position button on the left */
-      top: 10px; /* Align button vertically */
-    }
+    width: 250px; /* Width of the mobile menu */
+    height: 100%;
+    background: transparent;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%); /* Start off-screen */
+    transition: transform 0.3s ease;
+    padding: 20px;
+    z-index: 999;
   }
-  
+
+  .nav-menu.open {
+    display: flex; /* Show the menu when open */
+    transform: translateX(0); /* Slide in when open */
+  }
+
+  .nav-menu a {
+    padding: 10px 0;
+    color: white; /* Black text color */
+  }
+
+  .mobile-menu-button {
+    display: block; /* Show the button on mobile */
+    position: absolute;
+    color: white;
+    left: 20px; /* Position button on the left */
+    top: 10px; /* Align button vertically */
+  }
+}
