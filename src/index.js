@@ -10,6 +10,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import NavbarMui from "./Components/NavbarMui";
+import FeaturesSection from "./Components/FeaturesSection";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +18,7 @@ root.render(
     <NavbarMui></NavbarMui>
     <App />
     <RemarkablePosition></RemarkablePosition>
+    <FeaturesSection></FeaturesSection>
     <Equipment></Equipment>
   </React.StrictMode>
 );

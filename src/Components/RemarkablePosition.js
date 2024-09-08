@@ -6,7 +6,7 @@ function RemarkableAndFeatures() {
     <section className="remarkable-features">
       <div className="remarkable-position">
         <h2>A Remarkable Position</h2>
-        <p>Among Agricultural Companies</p>
+        <h4>Among Agricultural Companies</h4>
         <p>
           We are a prominent leader in the agribusiness, specializing in the cultivation, production, and trading of natural food commodities such as cereals, fruits, and vegetables. Since our inception, we have achieved a remarkable position in the field of agriculture, continuously innovating and contributing toward sustainable farming practices and food production techniques.
         </p>
@@ -14,7 +14,7 @@ function RemarkableAndFeatures() {
       </div>
 
       <div className="feature-section">
-        <h3>Our Products</h3>
+        
         <div className="features">
           <div className="feature">
             <div className="image-container">

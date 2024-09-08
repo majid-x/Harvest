@@ -6,12 +6,17 @@
   
   .remarkable-position {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
   }
   
   .remarkable-position h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 10px;
+  }
+  .remarkable-position h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+
   }
   
   .remarkable-position p {
@@ -19,6 +24,7 @@
     margin: 0 auto;
     font-size: 1.2rem;
     line-height: 1.5;
+    margin-bottom: 5px;
   }
   
   .remarkable-position button {
@@ -28,6 +34,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    margin-bottom: 5px;
   }
   
   .feature-section {
