@@ -18,19 +18,19 @@ function RemarkableAndFeatures() {
         <div className="features">
           <div className="feature">
             <div className="image-container">
-              <img src="/images/pic1.jpeg" alt="Cereals" />
+              <img src="/images/cereals.jpg" alt="Cereals" />
               <p className="image-text">Cereals</p>
             </div>
           </div>
           <div className="feature">
             <div className="image-container">
-              <img src="/images/pic1.jpeg" alt="Vegetables" />
+              <img src="/images/vegetables.jpg" alt="Vegetables" />
               <p className="image-text">Vegetables</p>
             </div>
           </div>
           <div className="feature">
             <div className="image-container">
-              <img src="/images/pic1.jpeg" alt="Fruits & Berries" />
+              <img src="/images/berry.webp" alt="Fruits & Berries" />
               <p className="image-text">Fruits & Berries</p>
             </div>
           </div>

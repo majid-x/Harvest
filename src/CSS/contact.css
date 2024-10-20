@@ -1,0 +1,52 @@
+.parent {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(48, 41, 41);
+    color: white;
+    display: flex; /* Use flexbox to create a two-column layout */
+}
+
+.harvest {
+    width: 50%; /* Occupies the left half */
+    padding-top: 0%; /* Space from the top, adjust as needed */
+    display: flex;
+    align-items: center; /* Center align the content vertically */
+}
+
+#harvest {
+    margin-left: 35%; /* Center the text within its column */
+    letter-spacing: 0.2em;
+}
+
+.social-div {
+    width: 50%; /* Occupies the right half */
+    display: flex;
+    flex-direction: column; /* Stack icons and number vertically */
+    align-items: flex-end; /* Aligns items to the right */
+    justify-content: center; /* Center align vertically */
+    padding-top: 0%;
+    margin-bottom: 6%; /* Space from the top, adjust as needed */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    margin-right: 20%;
+
+}
+
+.icon {
+    color: black; /* Icon color */
+    font-size: 30px; /* Icon size */
+}
+
+.phone{
+    width: 70%;
+    
+}
+.contact-number{
+    
+    margin: 10% 60% 0 0;
+    font-size: 18px;
+   
+}
