@@ -10,7 +10,7 @@ function RemarkableAndFeatures() {
         <p>
           We are a prominent leader in the agribusiness, specializing in the cultivation, production, and trading of natural food commodities such as cereals, fruits, and vegetables. Since our inception, we have achieved a remarkable position in the field of agriculture, continuously innovating and contributing toward sustainable farming practices and food production techniques.
         </p>
-        <button>Read More</button>
+        
       </div>
 
       <div className="feature-section">
