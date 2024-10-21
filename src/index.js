@@ -12,6 +12,7 @@ import "@fontsource/roboto/700.css";
 import NavbarMui from "./Components/NavbarMui";
 import FeaturesSection from "./Components/FeaturesSection";
 import Contact from "./Components/Contact";
+import Maps from "./Components/Map"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <FeaturesSection></FeaturesSection>
     <Equipment></Equipment>
     <Contact/>
+    <Maps/>
   </React.StrictMode>
 );
 

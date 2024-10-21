@@ -16,7 +16,10 @@ export default function Contact() {
                 <div className="phone">
                     <h4 className="contact-number">Phone: (123) 456-7890</h4>
                 </div>
+              
             </div>
+            
+          
         </div>
     );
 }

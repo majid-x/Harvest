@@ -6,7 +6,7 @@ const FeaturesSection = () => {
       <div className="feature-card">
         <div className="image-container">
           <img
-            src="/images/aa.jpeg"
+            src="/images/plant.jpg"
             alt="Agricultural Seeds"
             className="feature-image"
           />
@@ -19,7 +19,7 @@ const FeaturesSection = () => {
       <div className="feature-card">
         <div className="image-container">
           <img
-            src="/images/images.jpeg"
+            src="/images/watermelon.jpg"
             alt="Seed Traits & Technologies"
             className="feature-image"
           />
@@ -33,7 +33,7 @@ const FeaturesSection = () => {
       <div className="feature-card">
         <div className="image-container">
           <img
-            src="/images/download.jpeg"
+            src="/images/apple.jpg"
             alt="Water Conservation"
             className="feature-image"
           />
