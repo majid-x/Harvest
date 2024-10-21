@@ -1,6 +1,5 @@
 import "./../CSS/contact.css";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"; // Import social icons
-
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 export default function Contact() {
     return (
         <div className="parent">
