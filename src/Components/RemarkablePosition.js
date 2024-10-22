@@ -1,4 +1,3 @@
-
 import React from 'react';
 import "../CSS/Remarkable.css"
 function RemarkableAndFeatures() {
